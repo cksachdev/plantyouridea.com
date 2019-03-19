@@ -10,7 +10,7 @@
 </head>
 <body data-spy="scroll" data-target=".icon_bar" data-offset="50">
     <div class="container-fluid menu">
-        <button class="openbtn">
+        <button class="openbtn" onclick="myFunction('jumbomenu')">
             <i class="fas fa-bars"></i>
         </button>
     </div>
@@ -27,10 +27,10 @@
     <div class="container-fluid" id="class_6">
     </div>
 
-    <div class="icon-bar" id="jumbomenu" >
+    <div class="icon-bar" id="jumbomenu">
         <ul>
             <li>
-                <a href="#class_1" >
+                <a href="#class_1">
                     <div class="pagemenu_nom">01</div>
                     <div class="pagemenu_title">ETUSIVU</div>
                 </a>
@@ -83,16 +83,16 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script>
-       $(document).ready(function(){
-           $(".openbtn").click(function() {
-               $("#jumbomenu").show("slow");
-               $('#jumbomenu').click(function () {
-                   $("#jumbomenu").hide("slow");
-               });
-           });
-       });
-
+        function myFunction(id) {
+            var x = document.getElementById(id);
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
     </script>
+
 
 </body>
 
