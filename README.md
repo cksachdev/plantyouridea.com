@@ -1,2 +1,0 @@
-# plantyouridea.com
-plantyouridea.com
