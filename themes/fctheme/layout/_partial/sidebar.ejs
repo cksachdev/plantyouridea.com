@@ -1,0 +1,77 @@
+<aside class="sidebar">
+
+  <div >
+    <div class="" >
+      <a href="index.html">
+        <img class="image-id" src="<%- theme.avatar %>" alt="">
+      </a>
+      
+    </div>
+    <div class="">
+      <h1 class="sidebar-title"><%= config.title %> </h1>
+    </div>
+    
+    <a class="email" href="mailto:mail@chetansachdev.com"><%- theme.email %></a>
+  
+  
+    <div class="searchbar-container">
+      <input id="searchbar" class="searchbar" onkeyup="search_post()" type="text" placeholder="Search">
+    </div>
+    
+    <div class="menu-bar ">
+     
+  
+      <a class="menu-item home " id="home" onclick="hide()" href="<%- url_for(theme.menu.home.url) %>"> <i  class="fa fa-home fa-lg " aria-hidden="true"></i><%- theme.menu.home.text %> </a> 
+      <a class="menu-item" href="<%- url_for(theme.menu.archives.url) %>"> <i class="fa fa-archive " aria-hidden="true"></i>Archives</a>
+      <a class=" menu-item " href="<%- url_for(theme.menu.categories.url) %>"> <i class="fa fa-list " aria-hidden="true"></i>Categories</a>
+      <a class="menu-item " href="<%- url_for(theme.menu.tags.url) %>"><i class="fa fa-tags " aria-hidden="true"></i>Tags</a>
+      <a class="menu-item  " href="https://github.com/cksachdev"><i class="fa fa-github " aria-hidden=""></i>Github</a>
+      <a class="menu-item  " href="<%- url_for(theme.menu.about.url) %>"><i class="fa fa-info-circle " aria-hidden="true"></i>About me</a>
+  
+    </div>
+    
+  
+    <div class="social-bar  ">
+      <a class="" href="https://twitter.com/cksachdev"><i class="fa fa-twitter fa-lg " aria-hidden="true"></i><span class="social-link ">Follow me</span>
+         on Twitter</a>
+      <a class="" href="https://www.linkedin.com/in/cksachdev/"><i class="fa fa-linkedin-square fa-lg  " aria-hidden="true"></i>
+       <span class="social-link">Linkedin</span> </a>
+      <a class="" href="https://www.facebook.com/cksachdev"><i class="fa fa-facebook-square fa-lg  " aria-hidden="true"></i>
+        <span class="social-link">Facebook</span> </a> 
+    </div>
+  </div>
+
+  
+  <p class=" ">✉️ Questions? <a class="email-link" href="#">Email me</a>  (no guest posts, no "add this link", no product placement or review requests pls)
+  </p>
+  <div class="footer-tags ">
+    <%#- partial('_partial/tag-side-footer') %> 
+    <%- partial('_partial/tag-cloud') %> 
+  </div>
+  <div></div>
+  
+  <p class=""><%- partial('_partial/footer') %> </p>
+  <script>
+    function search_post(){
+      let input = document.getElementById("searchbar").value
+      input = input.toLowerCase();
+      let x = document.getElementsByClassName("post-stub");
+      for (i=0; i<x.length; i++){
+         if (!x[i].innerHTML.toLowerCase().includes(input)){
+           x[i].style.display = "none";
+         }
+         else{
+           x[i].style.dispaly = "post-item";
+         }
+      }
+    }
+
+    function hide(){
+      var x = document.getElementById("home");
+        x.style.visibility = "hidden"
+    }
+
+  </script>
+ 
+
+</aside>

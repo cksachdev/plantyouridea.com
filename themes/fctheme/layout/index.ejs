@@ -1,0 +1,8 @@
+  
+<%
+   var posts = [];
+   page.posts.each(function(item){ %>
+    <%- partial('_partial/article-excerpt', {item: item}) %>
+<% }); %>
+
+<%#- partial('_partial/pagination') %>

@@ -1,0 +1,31 @@
+menu:
+  topics:
+    text : Services
+    url: services/
+  browse:
+    text: About
+
+# Your avatar url
+avatar: /img/cksachdev.jpg
+# avatar link
+avatar_link: /
+
+# favicon
+favicon: /img/favicon.ico
+
+# website
+website: Plantyouridea
+# website link
+website_link: plantyouridea.com
+# email
+email: mail@chetansachdev.com
+
+# copyright start year
+since_year: 2018
+
+# atricle truncation
+excerpt_render: true
+excerpt_length: 150
+excerpt_link: Read more...
+mathjax: true
+archive_yearly: true

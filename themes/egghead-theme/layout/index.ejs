@@ -1,0 +1,25 @@
+<div class="head-container">
+    <%- partial('_partial/header') %> 
+    <%- partial('_partial/search-bar') %> 
+</div>
+<div class="">
+    <%- partial('_partial/intro') %> 
+</div>
+
+
+<div class="card-container">
+    <%- partial('_partial/card-header') %>
+    <div class="post-container">
+        <%
+        var posts = [];
+        page.posts.each(function(item){ %>
+         <%- partial('_partial/article-excerpt', {item: item}) %>
+        <% }); %>
+    </div>
+</div> 
+
+<%- partial('_partial/about') %> 
+<div class="footer-container">
+    <%- partial('_partial/footer') %> 
+    <%- partial('_partial/after-footer') %> 
+</div>
