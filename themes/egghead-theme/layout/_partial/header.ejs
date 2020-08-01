@@ -1,5 +1,5 @@
-<div>
-    <header class="px-4 flex justify-between relative">
+<div class="relative">
+    <header class="px-4 flex  relative">
         <div class="flex w-full justify-between relative">
             <a class="" href="#">
                 <span class="flex">
@@ -21,9 +21,9 @@
                       <span class="fa fa-close text-white" aria-hidden="true"></span>
                     </a>
                     <ul class="relative font-semibold">
-                      <li class="dropdown relative">
-                          <a href="<%- url_for(page.title) %>" class="dropbtn text-white no-underline mt-2 " onclick="location.href ='<%- url_for(site.topics) %>' " >Services</a>
-                          <div class="dropdown-content">
+                      <li class="dropdown">
+                          <button class="dropbtn text-white no-underline mt-4 ml-4 md:ml-0 lg:ml-0 xl:ml-0 font-semibold block" onclick="location.href ='<%- url_for(site.topics) %>' " >Services</button>
+                          <div class="dropdown-content hidden">
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
