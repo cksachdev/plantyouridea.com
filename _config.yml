@@ -110,6 +110,6 @@ theme: egghead-theme
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/cksachdev/chetansachdev.com.git
+  repo: https://github.com/cksachdev/plantyouridea.com.git
   branch: gh-pages
   message:  
