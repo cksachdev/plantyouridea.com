@@ -200,9 +200,9 @@ body{
 }
 .post-title-h2{
     height: 56px;
-    color: black;
+    color: rgb(60, 59, 59);
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .content-post-title a{
     text-shadow: grey;
