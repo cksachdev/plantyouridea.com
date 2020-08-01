@@ -1,25 +1,45 @@
-<div class="content-post py-8">
+<div class="content-post bg-gray-800 text-white">
     
     
-    <div class="post-header ml-16">
+    <div class="content-header py-8 bg-gray-900 bg-opacity-25  px-8  h-full">
         <!-- Title -->
-        <h2 class="content-post-title ">
-            <a href="<%- config.root %><%- item.path %>">
+        <h2 class="content-post-title font-bold text-4xl font-serif   ">
+            <a  href="<%- config.root %><%- item.path %>">
                 <%- item.title || item.link%>
             </a>
         </h2>
         <!-- Date and Author -->
-        <p class="content-post-meta">Published on
-            <%= item.date.format(config.date_format) %>
+        <p class="content-post-meta">
+            <%#= item.date.format(config.date_format) %>
             <% if(item.author) { %>
-                by <%- item.author %>
+                
             <% } %>
         </p>
     </div>
     
     <!-- Content -->
-    <div class="item-content ml-16 "  >
-        <%- item.content %>
+    <div class="flex justify-around text-white">
+        <div class="item-content flex  text-white font-medium"  >
+
+            <div class=" -ml-20">
+                 <h3 class="mt-16 ml-20 pb-6 font-bold font-serif text-xl"><%- item.item1 %></h3>
+                 <%- item.content %>
+            </div>
+
+
+           
+
+           <div class="flex flex-wrap justify-end mt-16 max-w-xs ml-20 font-semibold">
+              <% if(item.item1 || item.item2) { %> 
+                 <p class="bg-gray-700 p-4 text-white text-center  m-2 h-24 
+                 w-32"><%- item.item2 %></p>
+                 <p class="bg-gray-700 p-4 text-white text-center  m-2 h-24 w-32"><%- item.item3 %></p>
+                 <p class="bg-gray-700 p-4 text-white text-center  m-2 h-24 w-32"><%- item.item4 %></p>
+                 <p class="bg-gray-700 p-4 text-white text-center  m-2 h-24 w-32"><%- item.item5 %></p>
+                 <p class="bg-gray-700 p-4 text-white text-center mr-20  m-2 h-24 w-32"><%- item.item6 %></p>
+              <% } %> 
+            </div>    
+        </div>
     </div>
     <!-- Tags and Categories links -->
     <%#- partial('article-tags', {item: item}) %>

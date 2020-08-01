@@ -1,6 +1,6 @@
 <div>
-    <header class="px-4 py-4 flex justify-between">
-        <div class="flex w-full">
+    <header class="px-4 flex justify-between relative">
+        <div class="flex w-full justify-between relative">
             <a class="" href="#">
                 <span class="flex">
                    <!-- <img class="h-8 w-8" src="/img/favicon.ico" alt=""> -->
@@ -9,36 +9,59 @@
                          plantyouridea.com</p> 
                 </span>
             </a>
-            <div class="top-nav  overflow-hidden flex w-full justify-between " id="top-menu">
-                <div class="flex ">
-                    <a  class="  align-middle text-sm mt-1 text-white ml-12 " href="<%- url_for(page.title) %>" onclick="location.href ='<%- url_for(site.topics) %>' ">
-                        <span class=""><i class="fa fa-briefcase mr-1 text-gray-600" aria-hidden="true"></i>
-                        </span> <%- theme.menu.topics.text %> 
+            <header class="relative pt-0 pr-0 ">
+                <a href="#main-menu" id="main-menu-toggle" class="menu-toggle  no-underline  "  aria-label="Open main menu">
+                  <span class="sr-only">Open main menu</span>
+                  <span class="fa fa-bars text-white " aria-hidden="true"></span>
                 </a>
        
-                <a class="  mx-6 text-sm align-items-center text-white mt-1" href="#"> 
-                       <i class="fa fa-info-circle mt-1 mr-2 text-gray-600 " aria-hidden="true"></i>
-                        <%- theme.menu.browse.text %>
-                </a>
-                </div>
-                
-                
-                
-                <div class="pr-4">
-                   <a href="#" class="text-white text-sm">Sign in</a>
-                </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars text-white  block float-right" aria-hidden="true"></i>
-                </a>
+                <nav id="main-menu" class="relative main-menu flex flex-col " aria-label="Main menu">
+                    <a href="#main-menu-toggle" class="menu-close  no-underline " id="main-menu-close" aria-label="Close main menu">
+                      <span class="sr-only">Close main menu</span>  
+                      <span class="fa fa-close text-white" aria-hidden="true"></span>
+                    </a>
+                    <ul class="relative font-semibold">
+                      <li class="dropdown relative">
+                          <a href="<%- url_for(page.title) %>" class="dropbtn text-white no-underline mt-2 " onclick="location.href ='<%- url_for(site.topics) %>' " >Services</a>
+                          <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                        </li>
+
+                      <li class="py-2">
+                          <a class=" no-underline  text-sm  align-items-center text-white " href="#"> 
+                           <%- theme.menu.browse.text %>
+                          </a>
+                      </li>
+                      <li class="py-2">
+                          <a href="#" class="text-white  no-underline ">Contact</a>
+                        </li>
+                      <li class="py-2">
+                          <a href="#" class="text-white  no-underline ">Training</a>
+                        </li>
+                      <li class="py-2">
+                          <a href="#" class="text-white  no-underline ">Products</a>
+                        </li>
+                      <li class="py-2">
+                          <a href="#" class="text-white  no-underline ">Blog</a>
+                        </li>
+                      <li class="py-2">
+                          <a href="#" class="text-white  no-underline "><i class="fa fa-github " aria-hidden=""></i>
+                          </a>
+                        </li>
+                      <li class="py-2">
+                          <a href="#" class="text-white  no-underline "><i class="fa fa-twitter" aria-hidden=""></i>
+                        </a>
+                      </li>
+                      
+                    </ul>
+                  </nav>
+                  <a href="#main-menu-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
+              </header>
            </div>
-           <script>
-               function myFunction(){
-                   var x = document.getElementById('top-menu');
-                   if (x.className === 'topnav'){
-                       x.a.display = 'block';
-                   }
-               }
-           </script>
-                
+            
         </div>
            
     </header>

@@ -1,25 +1,23 @@
 body{
     -webkit-font-smoothing: antialiased;
-    
+    background-color: #2d3748;
     min-height: 100vh;
     margin: 0;
-    color: #63768d;
     font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
 }
 .head-container{
     background-color:#141618;
 }
-
+.search-container{
+  background-color:#141618;
+}
 .search{
     max-width: 1216px;
     height: 48px;
     background-color: #21252d;
     color: #B0B6BE;
 }
-.search-container{
-    width: 1216px;
-    height: 48px;
-}
+
 .intro-section{
     background-image:linear-gradient(170deg,#212A39 0%,#181E28 100%);
     height: 100%;
@@ -199,9 +197,12 @@ body{
 }
 .post-title-h2{
     height: 56px;
-    color: #141618;
+    color: black;
     font-size: 22px;
     font-weight: 400;
+}
+.content-post-title a{
+    text-shadow: grey;
 }
 .about-container{
     background: #F4F7F9;
@@ -256,3 +257,277 @@ body{
       flex-direction: column;
     } 
 }
+
+
+/* hamburger */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+  }
+
+  /* Button styling */
+  .menu-toggle {
+    display: inline-block;
+    padding: .75em 15px;
+    line-height: 1em;
+    font-size: 1em;
+    color: #333;
+  }
+
+  .menu-toggle:hover,
+  .menu-toggle:focus {
+  }
+
+  /*
+   Default styles + Mobile first
+   Offscreen menu style
+  */
+  .main-menu {
+    position: absolute;
+    display: none;
+    left: -200px;
+    top: 0;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: visible;
+    transition: left 0.3s ease,
+          box-shadow 0.3s ease;
+    z-index: 999;
+  }
+
+  .main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 2.5em 0 0;
+    /* Hide shadow w/ -8px while 'closed' */
+    -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+       -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);
+            box-shadow: -8px 0 8px rgba(0,0,0,.5);
+    min-height: 100%;
+    width: 500px;
+    background: #1a1a1a;
+  }
+
+  .main-menu a {
+    display: block;
+    padding: .75em 15px;
+    line-height: 1em;
+    font-size: 1em;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #383838;
+  }
+
+  .main-menu li:first-child a {
+    border-top: 1px solid #383838;
+  }
+
+  .main-menu a:hover,
+  .main-menu a:focus {
+    background: #333;
+    text-decoration: underline;
+  }
+
+  .main-menu .menu-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+
+  /*
+   More to come here...
+  */
+
+
+  /*
+   Demo purposes only
+  */
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+
+  header {
+    padding: 20px;
+    display: flex;
+    align-items: baseline;
+  }
+
+  article {
+    padding: 30px;
+    width: 55em;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+
+  article h2 {
+    font-weight: 500;
+    font-size: 28px;
+  }
+
+  .logo {
+    margin: 0 30px 0 10px;
+    font-size: 1.5em;
+  }
+  .main-menu:target,
+.main-menu[aria-expanded="true"] {
+  display: block;
+  left: 0;
+  outline: none;
+  -moz-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  -webkit-box-shadow: 3px 0 12px rgba(0,0,0,.25);
+  box-shadow: 3px 0 12px rgba(0,0,0,.25);
+}
+
+.main-menu:target .menu-close,
+.main-menu[aria-expanded="true"] .menu-close {
+  z-index: 1001;
+}
+
+.main-menu:target ul,
+.main-menu[aria-expanded="true"] ul {
+  position: relative;
+  z-index: 1000;
+}
+
+/* 
+ We could us `.main-menu:target:after`, but
+ it wouldn't be clickable.
+*/
+.main-menu:target + .backdrop,
+.main-menu[aria-expanded="true"] + .backdrop{
+  position: absolute;
+  display: block;  
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background: #000;
+  background: rgba(0,0,0,.85);
+  cursor: default;
+}
+
+@supports (position: fixed) {
+  .main-menu,
+  .main-menu:target + .backdrop,
+  .main-menu[aria-expanded="true"] + .backdrop{
+    position: fixed;
+  }
+}
+@media (min-width: 768px) {
+    .menu-toggle,
+    .main-menu .menu-close {
+      display: none;
+    }
+
+    /* Undo positioning of off-canvas menu */
+    .main-menu {
+      position: relative;
+          left: auto;
+          top: auto;
+          height: auto;
+      display: block;
+    }
+
+    .main-menu ul {
+      display: flex;
+
+      /* Undo off-canvas styling */
+      padding: 0;
+      -webkit-box-shadow: none;
+         -moz-box-shadow: none;
+              box-shadow: none;
+      height: auto;
+      width: auto;
+      background: none;
+    }
+
+    .main-menu a {
+      border: 0 !important; /* Remove borders from off-canvas styling */
+    }
+
+    .main-menu a:hover,
+    .main-menu a:focus {
+      background: none; /* Remove background from off-canvas styling */
+    }
+  }
+  *,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  align-items: baseline;
+}
+
+article {
+  padding: 30px;
+  width: 55em;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+article h2 {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.logo {
+  margin: 0 30px 0 10px;
+  font-size: 1.5em;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: rgb(79, 80, 79);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #4a4f52;}
