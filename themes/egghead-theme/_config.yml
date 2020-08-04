@@ -1,9 +1,34 @@
+# Header
 menu:
-  topics:
-    text : Services
+  home:
+    text: Home
+    url: /
+  services:
+    text: Services
     url: services/
-  browse:
-    text: About
+  contact:
+    text: Contact
+    url: contact/
+  training:
+    text: Training
+    url: training/
+  products:
+    text: Products
+    url: products/
+  blog: 
+    text: Blog
+    url: blog/
+  github:
+    text: Github
+    url: https://github.com/cksachdev
+    target : _blank  
+  twitter:
+    text: Twitter
+    url: https://twitter.com/cksachdev
+  about:
+    text: About me
+    url: about/
+  
 
 # Your avatar url
 avatar: /img/cksachdev.jpg
