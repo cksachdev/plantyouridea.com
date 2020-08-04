@@ -3,11 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Chetan Sachdev
+title: plantyouridea.com
 subtitle: planting ideas
-description: chetan sachdev's personal website
-keywords: bangalore javascript developer, kenexa viewertemplate developer, 508 developer, adobe flex engineer, freelance flash developer, Javascript trainer bangalore, Vue trainer bangalore
-author: Chetan Sachdev
 language: en_US
 timezone: Asia/Kolkata
 
@@ -41,7 +38,7 @@ a Sitemap :
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://chetansachdev.com
+url: http://plantyouridea.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

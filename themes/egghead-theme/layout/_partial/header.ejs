@@ -16,13 +16,13 @@
                   <span class="fa fa-bars text-white " aria-hidden="true"></span>
                 </a>
        
-                <nav id="main-menu" class="relative main-menu w-full flex " aria-label="Main menu">
+                <nav id="main-menu" class="nav relative main-menu w-auto flex " aria-label="Main menu">
                     <a href="#main-menu-toggle" class="menu-close  no-underline " id="main-menu-close" aria-label="Close main menu">
                       <span class="sr-only">Close main menu</span>  
                       <span class="fa fa-close text-white" aria-hidden="true"></span>
                     </a>
-                    <ul class=" flex font-semibold rounded-lg">
-                      <li class="dropdown py-2">
+                    <ul class="menu-bar flex ml font-semibold rounded-lg">
+                      <li class="dropdown   ">
                         <a class="dropbtn" href="<%- url_for(theme.menu.about.url) %>">About</a>
                         <div class="dropdown-content hidden rounded-sm overflow-hidden">
                           <a href="#">About<br> plantyouridea</a>
@@ -32,7 +32,7 @@
                       </li>
                     
                      
-                      <li class="dropdown h-64 flex-col py-2  ">
+                      <li class="services dropdown   h-64 flex-col   ">
                           <a class="dropbtn" href="<%- url_for(theme.menu.services.url) %>">Services</a>
                           <div class="dropdown-content hidden w-full rounded-sm overflow-hidden ">
                             <a class="" href="#">Frontend development</a>
@@ -44,7 +44,7 @@
 
                       
                       
-                      <li class="dropdown py-2">
+                      <li class="dropdown ">
                           <a href="<%- url_for(theme.menu.training.url) %>" class="dropbtn text-white  no-underline ">Training</a>
                           <div class="dropdown-content hidden rounded-sm overflow-hidden">
                             <a href="#">Hexo</a>
@@ -52,7 +52,7 @@
                             <a href="#">Adapt <br> Framework</a>
                           </div>
                         </li>
-                      <li class="dropdown py-2">
+                      <li class="dropdown ">
                           <a href="<%- url_for(theme.menu.products.url) %>" class="dropbtn text-white  no-underline ">Products</a>
                           <div class="dropdown-content hidden rounded-sm overflow-hidden">
                             <a href="#">Video Player<br> App</a>
@@ -60,17 +60,17 @@
                             <a href="#">Samaya App</a>
                           </div>
                         </li> 
-                        <li class="dropdown py-2">
+                        <li class="dropdown ">
                           <a href="<%- url_for(theme.menu.contact.url) %>" class="dropbtn text-white  no-underline ">Contact</a>
                        </li>
-                      <li class="blog  py-2">
+                      <li class="blog  py-3">
                           <a href="<%- url_for(theme.menu.blog.url) %>" class="blog-a  text-white">Blog</a>
                        </li>
-                      <li class="py-2">
+                      <li class=" py-3">
                           <a href="https://github.com/cksachdev" class=" text-white  no-underline "><i class="fa fa-github " aria-hidden=""></i>
                           </a>
                         </li>
-                      <li class="py-2">
+                      <li class=" py-3">
                           <a href="https://twitter.com/cksachdev" class="text-white  no-underline "><i class="fa fa-twitter" aria-hidden=""></i>
                         </a>
                       </li>

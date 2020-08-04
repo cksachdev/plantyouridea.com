@@ -5,10 +5,8 @@ top: 1
 date: 2019-05-08 12:51:14
 ---
 
-
- Chetan Sachdev 
- planting ideas
- Javascript engineer, Adobe Flex developer
+Plantyouridea is a platform where we provides different development services and products.
+You can also get different trainings here to learn different web framework.
 
 
      
