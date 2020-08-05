@@ -3,34 +3,34 @@
     <!-- Title -->
  
      <div id="post" class="post-stub " onclick="location.href='   <%= theme.excerpt_link %>';">
-       <p>
+       <p class="p-4">
            <% if(item.top === 'CSS') { %> 
-              <div class="flex justify-center">
-                <img class="rounded-full border-2 border-teal-600 " src="/img/tailwind.png" alt="" width="180" height="120">
+              <div class="flex w-full justify-center p-4">
+                <img class="rounded-full border-2 border-teal-600" src="/img/tailwind.png" alt="" width="180" height="120">
               </div> 
             <% } %> 
 
             <% if(item.top === 'hexo') { %> 
-            <div class="flex justify-center">
+            <div class="flex justify-center p-4">
               <img class=" " src="/img/hexo.png" alt="" width="180" height="120">
             </div> 
             <% } %> 
 
            <% if(item.top === 'adapt') { %> 
-            <div class="flex justify-center">
+            <div class="flex justify-center p-4">
               <img class="rounded-full " src="/img/adapt.jpg" alt="" width="180" height="100">
             </div> 
             <% } %> 
 
            
        </p>
-       <h2 class="post-title mt-4">
+       <h2 class="post-title ">
             <a href="<%- config.root %><%- item.path %>" class="post-title-h2 ">
                 <%- item.title %>
                 
             </a>
         </h2>
-        <div class="date-tag pb-20 flex justify-center">
+        <div class="date-tag flex justify-center">
             <!-- tag -->
            <div class="tags ml-24 sm:ml-16 md:ml-24 lg:ml-20 xl:ml-24  mb-8">                 
                <a href="https://plantyouridea.com/tags/js/" class="button-js"><%# if(site.tags) { %>
@@ -38,6 +38,23 @@
                    <%# } %>
             </div>
         </div> 
+        <div class="mx-6 flex justify-between items-center">
+           <div class="justify-center py-4">
+             <div class="flex ">
+               <img class="h-12 w-12 object-cover rounded-full" src="/img/Ankita.jpeg" alt="">
+               <div class="ml-2 text-gray-600 font-normal items-end mt-2 ">
+                   <h3 class="text-md">Ankita Yadav</h3>
+                   <div class="text-xs text-center flex">
+                      <p class="mr-1">20 lessons </p>
+                      <p class="">. 2 hour</p>
+                   </div>
+                  </div>
+             </div>
+            </div>
+            <div>
+            <i class="fa fa-lock text-gray-400 fa-lg" aria-hidden="true"></i>
+            </div>
+        </div>
         
     </div> 
     
