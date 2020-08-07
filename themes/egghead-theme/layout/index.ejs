@@ -1,13 +1,15 @@
 <div class="wrapper">
-    <div class="head-container ">
-        <%- partial('_partial/header') %> 
-        <%- partial('_partial/intro') %> 
-       
+    <div class="head-container justify-center">
+        <%- partial('_partial/header') %>  
+        
     </div>
+    <%- partial('_partial/intro') %> 
+        
+
     
     <div class="card-container justify-center items-center">
         <%- partial('_partial/card-header') %>
-        <div class="post-container">
+        <div class="post-container justify-center">
             <%
             var posts = [];
             page.posts.each(function(item){ %>
@@ -16,7 +18,7 @@
         </div>
     </div> 
      
-    <div class="footer-container">
+    <div class="footer-container justify-center">
         <%- partial('_partial/footer') %> 
         <%- partial('_partial/after-footer') %> 
     </div>

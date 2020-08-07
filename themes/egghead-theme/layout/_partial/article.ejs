@@ -1,34 +1,27 @@
-<div class="content-post bg-gray-800 text-white">
+<div class="content-post bg-gray-800 text-white h-full">
     
     
-    <div class="content-header py-8 bg-gray-900 bg-opacity-25  px-8  h-full">
+    <div class="content-header py-8 bg-gray-900  border-b border-teal-400 shadow-md bg-opacity-25  px-8  h-full">
         <!-- Title -->
         <h2 class="content-post-title font-bold text-4xl font-serif   ">
             <a  href="<%- config.root %><%- item.path %>">
                 <%- item.title || item.link%>
             </a>
         </h2>
-        <!-- Date and Author -->
-        <p class="content-post-meta">
-            <%#= item.date.format(config.date_format) %>
-            <% if(item.author) { %>
-                
-            <% } %>
-        </p>
     </div>
     
     <!-- Content -->
-    <div class="flex justify-around text-white">
-        <div class="item-content flex  text-white font-medium"  >
+    <div class="flex justify-around text-white pb-8">
+        <div class="item-content flex  text-white font-medium "  >
 
-            <div class="text-xl w-2/3 font-serif -ml-20">
-                 <h3 class="mt-16 ml-20 pb-6 font-bold font-serif text-xl"><%- item.item1 %></h3>
+            <div class="text-xl w-full font-serif justify-center items-center">
+                 <h3 class="page-header mt-16  w-2/4 text-center pb-6 font-bold font-serif text-xl justify-center"><%- item.item1 %></h3>
                  <%- item.content %>
             </div>
 
 
            
-
+          <% if (item.item2) { %> 
            <div class="flex flex-wrap justify-end mt-16 max-w-xs ml-20 font-semibold">
               <% if(item.item1 || item.item2) { %> 
                  <p class="bg-gray-700 p-4 text-white text-center  m-2 h-24 
@@ -38,7 +31,8 @@
                  <p class="bg-gray-700 p-4 text-white text-center  m-2 h-24 w-32"><%- item.item5 %></p>
                  <p class="bg-gray-700 p-4 text-white text-center mr-20  m-2 h-24 w-32"><%- item.item6 %></p>
               <% } %> 
-            </div>    
+            </div> 
+          <% } %> 
         </div>
     </div>
     <!-- Tags and Categories links -->
@@ -52,6 +46,9 @@
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </section>
-   
+    <div class="footer-container justify-center">
+        <%- partial('_partial/footer') %> 
+        <%- partial('_partial/after-footer') %> 
+    </div>
    
 </div>
