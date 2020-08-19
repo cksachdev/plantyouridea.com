@@ -35,7 +35,7 @@
                       <li class="services dropdown  -ml-2 h-64 flex-col   ">
                           <a class="dropbtn" href="<%- url_for(theme.menu.services.url) %>">Services</a>
                           <div class="dropdown-content hidden w-full rounded-sm overflow-hidden -mt-2">
-                            <a class="" href="#">Frontend development</a>
+                            <a class="" href="">Frontend development</a>
                             <a class="" href="#">Chrome <br> extension development</a>
                             <a class="" href="#">Hexo theme development</a>
                             <a class="" href="#">LMS and LCMS Integration</a>
@@ -55,13 +55,13 @@
                       <li class="dropdown ">
                           <a href="<%- url_for(theme.menu.products.url) %>" class="dropbtn text-white  no-underline ">Products</a>
                           <div class="dropdown-content hidden rounded-sm overflow-hidden -mt-2 ">
-                            <a href="#">Video Player<br> App</a>
-                            <a href="#">Abloop</a>
-                            <a href="#">Samaya App</a>
+                            <a href="<%- url_for(theme.menu.products.video_p.url) %>">Video Player<br> App</a>
+                            <a href="<%- url_for(theme.menu.products.abloop.url) %>">Abloop</a>
+                            <a href="<%- url_for(theme.menu.products.samaya_app.url) %>">Samaya App</a>
                           </div>
                         </li> 
                         <li class="dropdown ">
-                          <a href="<%- url_for(theme.menu.contact.url) %>" class="dropbtn text-white  no-underline ">Contact</a>
+                          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrfxY3WBFg_KKEzHUzknIm9HPozcv_AP1KmYWjWPAWY5Dd5Q/viewform?usp=sf_link" class="dropbtn text-white  no-underline ">Contact</a>
                        </li>
                       <li class="blog py-3 ">
                           <a href="<%- url_for(theme.menu.blog.url) %>" class="blog-a  text-white">Blog</a>

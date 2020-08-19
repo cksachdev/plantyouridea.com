@@ -647,6 +647,9 @@ article h2 {
 .z-10:hover{
   z-index: 30;
 }
+.video-screen{
+  height: 400px
+}
 @media (min-width: 375px),(max-width: 740px){
   .ul{
     display: flex;

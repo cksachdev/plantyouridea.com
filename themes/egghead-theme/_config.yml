@@ -15,6 +15,15 @@ menu:
   products:
     text: Products
     url: products/
+    video_p: 
+      text: Video-Player
+      url: video_p/
+    abloop:
+      text: Abloop
+      url: abloop/
+    samaya_app:
+      text: Samaya App
+      url: samaya_app/
   blog: 
     text: Blog
     url: blog/
