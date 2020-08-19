@@ -1,9 +1,9 @@
-<div class="content-post bg-gray-800 text-white h-full">
+<div class="h-full text-white bg-gray-800 content-post">
     
     
-    <div class="content-header py-8 bg-gray-900  border-b border-teal-400 shadow-md bg-opacity-25  px-8  h-full">
+    <div class="h-full px-8 py-8 bg-gray-900 bg-opacity-25 border-b border-teal-400 shadow-md content-header">
         <!-- Title -->
-        <h2 class="content-post-title font-bold text-4xl font-serif   ">
+        <h2 class="font-serif text-4xl font-bold content-post-title ">
             <a  href="<%- config.root %><%- item.path %>">
                 <%- item.title || item.link%>
             </a>
@@ -11,25 +11,24 @@
     </div>
     
     <!-- Content -->
-    <div class="flex justify-around text-white pb-8">
-        <div class="item-content flex  text-white font-medium "  >
+    <div class="flex justify-around pb-8 text-white">
+        <div class="flex font-medium text-white item-content "  >
 
-            <div class="text-xl w-full font-serif justify-center items-center">
-                 <h3 class="page-header mt-16  w-2/4 text-center pb-6 font-bold font-serif text-xl justify-center"><%- item.item1 %></h3>
+            <div class="items-center justify-center w-full font-serif text-xl">
+                 <h3 class="justify-center w-2/4 pb-6 mt-16 font-serif text-xl font-bold text-center page-header"><%- item.item1 %></h3>
                  <%- item.content %>
             </div>
 
 
            
           <% if (item.item2) { %> 
-           <div class="flex flex-wrap justify-end mt-16 max-w-xs ml-20 font-semibold">
+           <div class="flex flex-wrap justify-end max-w-xs mt-16 ml-20 font-semibold">
               <% if(item.item1 || item.item2) { %> 
-                 <p class="bg-gray-700 p-4 text-white text-center  m-2 h-24 
-                 w-32"><%- item.item2 %></p>
-                 <p class="bg-gray-700 p-4 text-white text-center  m-2 h-24 w-32"><%- item.item3 %></p>
-                 <p class="bg-gray-700 p-4 text-white text-center  m-2 h-24 w-32"><%- item.item4 %></p>
-                 <p class="bg-gray-700 p-4 text-white text-center  m-2 h-24 w-32"><%- item.item5 %></p>
-                 <p class="bg-gray-700 p-4 text-white text-center mr-20  m-2 h-24 w-32"><%- item.item6 %></p>
+                 <p class="w-32 h-24 p-4 m-2 text-center text-white bg-gray-700"><%- item.item2 %></p>
+                 <p class="w-32 h-24 p-4 m-2 text-center text-white bg-gray-700"><%- item.item3 %></p>
+                 <p class="w-32 h-24 p-4 m-2 text-center text-white bg-gray-700"><%- item.item4 %></p>
+                 <p class="w-32 h-24 p-4 m-2 text-center text-white bg-gray-700"><%- item.item5 %></p>
+                 <p class="w-32 h-24 p-4 m-2 mr-20 text-center text-white bg-gray-700"><%- item.item6 %></p>
               <% } %> 
             </div> 
           <% } %> 
@@ -46,7 +45,7 @@
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </section>
-    <div class="footer-container justify-center">
+    <div class="justify-center footer-container">
         <%- partial('_partial/footer') %> 
         <%- partial('_partial/after-footer') %> 
     </div>
