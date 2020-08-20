@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>plantyouridea.com</title>
+  
+  <subtitle>planting ideas</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://plantyouridea.com/"/>
+  <updated>2020-08-19T12:24:00.748Z</updated>
+  <id>http://plantyouridea.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Adapt-Framework</title>
+    <link href="http://plantyouridea.com/2020/08/01/adapt-framework/"/>
+    <id>http://plantyouridea.com/2020/08/01/adapt-framework/</id>
+    <published>2020-08-01T05:14:09.000Z</published>
+    <updated>2020-08-19T12:24:00.748Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="Web-Platform" scheme="http://plantyouridea.com/tags/Web-Platform/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tailwind-ui</title>
+    <link href="http://plantyouridea.com/2020/08/01/Tailwind-ui/"/>
+    <id>http://plantyouridea.com/2020/08/01/Tailwind-ui/</id>
+    <published>2020-08-01T05:13:42.000Z</published>
+    <updated>2020-08-19T12:24:00.747Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="CSS" scheme="http://plantyouridea.com/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-Framework</title>
+    <link href="http://plantyouridea.com/2020/08/01/Hexo/"/>
+    <id>http://plantyouridea.com/2020/08/01/Hexo/</id>
+    <published>2020-08-01T05:13:26.000Z</published>
+    <updated>2020-08-19T12:24:00.747Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hexo is a framework by which you can generate static sites or blog.<br>It is a node.js based framework which works with html and markdown files.<br>It provides the deployment function on the github where you can store all<br>of your files &amp; folders very easily</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Hexo is a framework by which you can generate static sites or blog.&lt;br&gt;It is a node.js based framework which works with html and markdown
+      
+    
+    </summary>
+    
+    
+      <category term="Web-Platform" scheme="http://plantyouridea.com/tags/Web-Platform/"/>
+    
+  </entry>
+  
+</feed>
