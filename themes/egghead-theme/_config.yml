@@ -37,6 +37,12 @@ menu:
   about:
     text: About me
     url: about/
+    team: 
+      text: Meet The Team
+      url: team/
+    about_p:
+      text: About Plantyouridea
+      url: about_p/
   
 
 # Your avatar url

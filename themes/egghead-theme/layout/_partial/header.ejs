@@ -1,40 +1,40 @@
-<div class="sticky w-full top-auto mx-4 pt-0 pb-1 justify-center ">
-    <header class="main-header flex w-full relative ">
-        <div class=" flex w-full justify-between relative ">
+<div class="sticky top-auto justify-center w-full pt-0 pb-1 mx-4 ">
+    <header class="relative flex w-full main-header ">
+        <div class="relative flex justify-between w-full ">
             <a class="w-1/3 " href="#">
                 <span class="flex mt-3 md:mt-4">
-                   <!-- <img class="h-8 w-8" src="/img/favicon.ico" alt=""> -->
+                   <!-- <img class="w-8 h-8" src="/img/favicon.ico" alt=""> -->
                    <img src="/img/favicon_plant.ico" alt="" width="30" height="15">
-                    <p class="align-middle font-extrabold text-white text-xl ml-1">
+                    <p class="ml-1 text-xl font-extrabold text-white align-middle">
                          plantyouridea.com</p> 
                 </span>
             </a>
             
-            <header class="w-2/3 sm:w-4/5  pt-0 pr-0 relative justify-end">
-                <a href="#main-menu" id="main-menu-toggle" class="menu-toggle  no-underline justify-end "  aria-label="Open main menu">
+            <header class="relative justify-end w-2/3 pt-0 pr-0 sm:w-4/5">
+                <a href="#main-menu" id="main-menu-toggle" class="justify-end no-underline menu-toggle "  aria-label="Open main menu">
                   <span class="sr-only">Open main menu</span>
-                  <span class="fa fa-bars text-white " aria-hidden="true"></span>
+                  <span class="text-white fa fa-bars " aria-hidden="true"></span>
                 </a>
        
-                <nav id="main-menu" class="nav relative main-menu w-auto flex " aria-label="Main menu">
-                    <a href="#main-menu-toggle" class="menu-close  no-underline " id="main-menu-close" aria-label="Close main menu">
+                <nav id="main-menu" class="relative flex w-auto nav main-menu " aria-label="Main menu">
+                    <a href="#main-menu-toggle" class="no-underline menu-close " id="main-menu-close" aria-label="Close main menu">
                       <span class="sr-only">Close main menu</span>  
-                      <span class="fa fa-close text-white" aria-hidden="true"></span>
+                      <span class="text-white fa fa-close" aria-hidden="true"></span>
                     </a>
-                    <ul class="menu-bar flex  font-semibold rounded-lg">
-                      <li class="dropdown   ">
-                        <a class="dropbtn text-center" href="<%- url_for(theme.menu.about.url) %>">About</a>
-                        <div class="dropdown-content hidden rounded-sm overflow-hidden -mt-2">
-                          <a href="#">About<br> plantyouridea</a>
+                    <ul class="flex font-semibold rounded-lg menu-bar">
+                      <li class="dropdown ">
+                        <a class="text-center dropbtn" href="<%- url_for(theme.menu.about.url) %>">About</a>
+                        <div class="hidden -mt-2 overflow-hidden rounded-sm dropdown-content">
+                          <a href=" <%- url_for(theme.menu.about.about_p.url)%>">About<br> plantyouridea</a>
                           <a href="#">Who we are</a>
-                          <a href="#">Meet the team</a>
+                          <a href=" <%- url_for(theme.menu.about.team.url)%>">Meet the team</a>
                         </div>
                       </li>
                     
                      
-                      <li class="services dropdown  -ml-2 h-64 flex-col   ">
+                      <li class="flex-col h-64 -ml-2 services dropdown ">
                           <a class="dropbtn" href="<%- url_for(theme.menu.services.url) %>">Services</a>
-                          <div class="dropdown-content hidden w-full rounded-sm overflow-hidden -mt-2">
+                          <div class="hidden w-full -mt-2 overflow-hidden rounded-sm dropdown-content">
                             <a class="" href="">Frontend development</a>
                             <a class="" href="#">Chrome <br> extension development</a>
                             <a class="" href="#">Hexo theme development</a>
@@ -45,33 +45,33 @@
                       
                       
                       <li class="dropdown ">
-                          <a href="<%- url_for(theme.menu.training.url) %>" class="dropbtn text-white  no-underline ">Training</a>
-                          <div class="dropdown-content hidden rounded-sm overflow-hidden -mt-2">
+                          <a href="<%- url_for(theme.menu.training.url) %>" class="text-white no-underline dropbtn ">Training</a>
+                          <div class="hidden -mt-2 overflow-hidden rounded-sm dropdown-content">
                             <a href="#">Hexo</a>
                             <a href="#">Tailwind UI</a>
                             <a href="#">Adapt <br> Framework</a>
                           </div>
                         </li>
                       <li class="dropdown ">
-                          <a href="<%- url_for(theme.menu.products.url) %>" class="dropbtn text-white  no-underline ">Products</a>
-                          <div class="dropdown-content hidden rounded-sm overflow-hidden -mt-2 ">
+                          <a href="<%- url_for(theme.menu.products.url) %>" class="text-white no-underline dropbtn ">Products</a>
+                          <div class="hidden -mt-2 overflow-hidden rounded-sm dropdown-content ">
                             <a href="<%- url_for(theme.menu.products.video_p.url) %>">Video Player<br> App</a>
                             <a href="<%- url_for(theme.menu.products.abloop.url) %>">Abloop</a>
                             <a href="<%- url_for(theme.menu.products.samaya_app.url) %>">Samaya App</a>
                           </div>
                         </li> 
                         <li class="dropdown ">
-                          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrfxY3WBFg_KKEzHUzknIm9HPozcv_AP1KmYWjWPAWY5Dd5Q/viewform?usp=sf_link" class="dropbtn text-white  no-underline ">Contact</a>
+                          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrfxY3WBFg_KKEzHUzknIm9HPozcv_AP1KmYWjWPAWY5Dd5Q/viewform?usp=sf_link" class="text-white no-underline dropbtn ">Contact</a>
                        </li>
-                      <li class="blog py-3 ">
-                          <a href="<%- url_for(theme.menu.blog.url) %>" class="blog-a  text-white">Blog</a>
+                      <li class="py-3 blog ">
+                          <a href="<%- url_for(theme.menu.blog.url) %>" class="text-white blog-a">Blog</a>
                        </li>
-                      <li class="py-3  ">
-                          <a href="https://github.com/cksachdev" class=" text-white  no-underline "><i class="fa fa-github " aria-hidden=""></i>
+                      <li class="py-3 ">
+                          <a href="https://github.com/cksachdev" class="text-white no-underline "><i class="fa fa-github " aria-hidden=""></i>
                           </a>
                         </li>
-                      <li class="py-3  ">
-                          <a href="https://twitter.com/cksachdev" class="text-white  no-underline "><i class="fa fa-twitter" aria-hidden=""></i>
+                      <li class="py-3 ">
+                          <a href="https://twitter.com/cksachdev" class="text-white no-underline "><i class="fa fa-twitter" aria-hidden=""></i>
                         </a>
                       </li>
                       
