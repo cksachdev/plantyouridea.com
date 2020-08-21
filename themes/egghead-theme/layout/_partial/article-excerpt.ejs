@@ -1,8 +1,8 @@
- <div class="w-full post sm:max-w-xs sm:w-1/2 md:max-w-md lg:max-w-lg lg:w-1/3 xl:max-w-xl" id="post" class="post-stub" onclick="location.href='  <%= theme.excerpt_link %>'; ">
+ <div class="w-full post sm:max-w-xs sm:w-1/2 md:max-w-md lg:max-w-lg lg:w-1/3 xl:max-w-xl" id="post" class="post-stub" onclick="location.href='<%- config.root %><%- item.path %>'; ">
    
     <!-- Title -->
  
-     <div id="post" class="post-stub " onclick="location.href='   <%= theme.excerpt_link %>';">
+     <div id="post" class="post-stub " onclick="location.href='<%- config.root %><%- item.path %>';">
        <p class="p-4">
            <% if(item.top === 'CSS') { %> 
               <div class="flex justify-center w-full p-4">
