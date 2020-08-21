@@ -657,3 +657,20 @@ article h2 {
   }
 }
 
+@media (min-width:2560px){
+  .head-container{
+    padding: 0 450px;
+  }
+  .intro-section{
+    padding: 20px 470px;
+  }
+  .footer-container{
+    padding: 0 440px;
+  }
+  .post-stub{
+    height: 550px;
+  }
+  .instructor{
+    margin-top: 40px;
+  }
+}

@@ -1,18 +1,18 @@
- <div class="post w-full sm:max-w-xs sm:w-1/2 md:max-w-md lg:max-w-lg lg:w-1/3 xl:max-w-xl" id="post" class="post-stub" onclick="location.href='  <%= theme.excerpt_link %>'; ">
+ <div class="w-full post sm:max-w-xs sm:w-1/2 md:max-w-md lg:max-w-lg lg:w-1/3 xl:max-w-xl" id="post" class="post-stub" onclick="location.href='  <%= theme.excerpt_link %>'; ">
    
     <!-- Title -->
  
      <div id="post" class="post-stub " onclick="location.href='   <%= theme.excerpt_link %>';">
        <p class="p-4">
            <% if(item.top === 'CSS') { %> 
-              <div class="flex w-full justify-center p-4">
-                <img class="rounded-full border-2 border-teal-600" src="/img/tailwind.png" alt="" width="180" height="120">
+              <div class="flex justify-center w-full p-4">
+                <img class="border-2 border-teal-600 rounded-full" src="/img/tailwind.png" alt="" width="180" height="120">
               </div> 
             <% } %> 
 
             <% if(item.top === 'hexo') { %> 
             <div class="flex justify-center p-4">
-              <img class=" " src="/img/hexo.png" alt="" width="180" height="120">
+              <img class="" src="/img/hexo.png" alt="" width="180" height="120">
             </div> 
             <% } %> 
 
@@ -33,19 +33,19 @@
          
           <!-- tag -->
         <div class="flex justify-center">
-          <div class="tags flex justify-center    mb-8">                 
+          <div class="flex justify-center mb-8 tags">                 
             <a href="https://plantyouridea.com/tags/js/" class="button-js">
               <%- item.author %>
           </div>
         </div>  
         
-        <div class="mx-6 flex justify-between items-center">
+        <div class="flex items-center justify-between mx-6 instructor">
            <div class="justify-center py-4">
              <div class="flex ">
-               <img class="h-12 w-12 object-cover rounded-full" src="/img/Ankita.jpeg" alt="">
-               <div class=" text-gray-600 font-normal items-end mt-2 ">
+               <img class="object-cover w-12 h-12 rounded-full" src="/img/Ankita.jpeg" alt="">
+               <div class="items-end mt-2 font-normal text-gray-600 ">
                    <h3 class="text-md">Ankita Yadav</h3>
-                   <div class="text-xs text-center flex ml-3">
+                   <div class="flex ml-3 text-xs text-center">
                       <p class="mr-1 ">20 lessons </p>
                       <p class="">. 2 hour</p>
                    </div>
@@ -53,7 +53,7 @@
              </div>
             </div>
             <div>
-            <i class="fa fa-lock text-gray-400 fa-lg" aria-hidden="true"></i>
+            <i class="text-gray-400 fa fa-lock fa-lg" aria-hidden="true"></i>
             </div>
         </div>
         
