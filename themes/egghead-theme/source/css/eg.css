@@ -657,4 +657,6 @@ article h2 {
   }
 }
 
-
+.freebirdFormviewerViewHeaderThemeStripe.freebirdSolidBackground.exportThemeStripe{
+   background-color: #383838;
+}
