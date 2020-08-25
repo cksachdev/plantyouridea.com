@@ -3,7 +3,7 @@
     margin: 0 auto;
   }
   .main-header{
-  padding: 0 20px 0px 20px;
+  padding: 0 20px 10px 20px;
   }
   .blog-a:hover{
   text-decoration: none!important;
@@ -52,7 +52,7 @@
   .main-menu ul {
     list-style: none;
     margin: 0;
-    padding: 2.5em 0 0;
+    padding:  0 0;
     /* Hide shadow w/ -8px while 'closed' */
     -webkit-box-shadow: -8px 0 8px rgba(0,0,0,.5);
        -moz-box-shadow: -8px 0 8px rgba(0,0,0,.5);

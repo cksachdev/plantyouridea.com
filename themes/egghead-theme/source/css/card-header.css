@@ -1,0 +1,19 @@
+.main-head{
+    display: flex;
+    flex-direction: column;
+}
+.main-head-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px 0 40px;
+}
+.main-head-s1{
+    color: #141618;
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+.main-head-s2{
+    color: rgba(0,0,0,.6);
+    font-size: 1rem;
+    font-weight: 400;
+}
