@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://plantyouridea.com/2020/08/01/adapt-framework/</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://plantyouridea.com/2020/08/01/Tailwind-ui/</loc>
+    
+    <lastmod>2020-08-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://plantyouridea.com/2020/08/01/Hexo/</loc>
     
-    <lastmod>2020-08-24</lastmod>
+    <lastmod>2020-08-25</lastmod>
     
   </url>
   
@@ -93,21 +107,7 @@
   </url>
   
   <url>
-    <loc>http://plantyouridea.com/2020/08/01/adapt-framework/</loc>
-    
-    <lastmod>2020-08-19</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://plantyouridea.com/blog/index.html</loc>
-    
-    <lastmod>2020-08-19</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://plantyouridea.com/2020/08/01/Tailwind-ui/</loc>
     
     <lastmod>2020-08-19</lastmod>
     
