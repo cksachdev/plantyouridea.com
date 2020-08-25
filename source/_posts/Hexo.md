@@ -5,7 +5,7 @@ category:
 tags:
   - Web-Platform
 top: hexo
-text: Static Site Generator
+text: Static Site Generator A fast, simple & powerful blog framework
 author: Web-Platform
 date: 2020-08-01 10:43:26
 ---
