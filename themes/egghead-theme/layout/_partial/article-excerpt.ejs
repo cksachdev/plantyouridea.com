@@ -1,4 +1,4 @@
- <div class="w-full post sm:max-w-xs sm:w-1/2 md:max-w-md lg:max-w-lg lg:w-1/3 xl:max-w-xl" id="post" class="post-stub" onclick="location.href='<%- config.root %><%- item.path %>'; ">
+ <div class="justify-center w-full pl-3 post sm:max-w-xs sm:w-1/2 md:max-w-md lg:max-w-lg lg:w-1/3 xl:max-w-xl xl:w-1/3" id="post" class="post-stub" onclick="location.href='<%- config.root %><%- item.path %>'; ">
    
     <!-- Title -->
  
@@ -24,6 +24,9 @@
 
            
        </p>
+       <p class="mt-2 mb-8 text-sm font-light text-gray-700">
+         <%- item.text %>
+       </p>
        <h2 class="post-title ">
             <a href="<%- config.root %><%- item.path %>" class="font-sans post-title-h2">
                 <%- item.title %>
@@ -32,7 +35,7 @@
         </h2>
          
           <!-- tag -->
-        <div class="flex justify-center">
+        <div class="flex justify-center w-auto ">
           <div class="flex justify-center mb-8 tags">                 
             <a href="" class="button-js">
               <%- item.author %>

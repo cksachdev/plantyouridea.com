@@ -271,14 +271,13 @@
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
+ .dropbtn:hover ~ #dropdown-content{
+     display:block;
+ }
+ .drpbtn:hover ~
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {text-decoration: none;} 
   
+  .dropdown:hover .dropbtn {text-decoration: none;} 
   
   /* dropdown */
   .topnav {
@@ -349,18 +348,6 @@
   line-height: 1rem;
   }
   
-  .topnav a:hover, .dropdown:hover .dropbtn {
-  
-  color: white;
-  }
-  
-  .dropdown-content a:hover {
-  background-color: #1345dd;;
-  color: white;
-  }
-  
-  .dropdown:hover .dropdown-content {
-  display: block;
-  }
+ 
   
   
