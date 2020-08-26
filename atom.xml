@@ -6,7 +6,7 @@
   <link href="http://plantyouridea.com/atom.xml" rel="self"/>
   
   <link href="http://plantyouridea.com/"/>
-  <updated>2020-08-25T14:16:21.836Z</updated>
+  <updated>2020-08-26T15:18:38.225Z</updated>
   <id>http://plantyouridea.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Adapt-Framework</title>
+    <title>Adapt Framework</title>
     <link href="http://plantyouridea.com/2020/08/01/adapt-framework/"/>
     <id>http://plantyouridea.com/2020/08/01/adapt-framework/</id>
     <published>2020-08-01T05:14:09.000Z</published>
-    <updated>2020-08-25T14:16:21.836Z</updated>
+    <updated>2020-08-26T15:18:38.225Z</updated>
     
     
     
@@ -32,11 +32,11 @@
   </entry>
   
   <entry>
-    <title>Tailwind-ui</title>
+    <title>Tailwind ui</title>
     <link href="http://plantyouridea.com/2020/08/01/Tailwind-ui/"/>
     <id>http://plantyouridea.com/2020/08/01/Tailwind-ui/</id>
     <published>2020-08-01T05:13:42.000Z</published>
-    <updated>2020-08-25T14:07:18.274Z</updated>
+    <updated>2020-08-26T15:18:42.537Z</updated>
     
     
     
@@ -47,11 +47,11 @@
   </entry>
   
   <entry>
-    <title>Hexo-Framework</title>
+    <title>Hexo Framework</title>
     <link href="http://plantyouridea.com/2020/08/01/Hexo/"/>
     <id>http://plantyouridea.com/2020/08/01/Hexo/</id>
     <published>2020-08-01T05:13:26.000Z</published>
-    <updated>2020-08-25T14:04:19.302Z</updated>
+    <updated>2020-08-26T15:18:40.643Z</updated>
     
     <content type="html"><![CDATA[<div class="justify-center mx-auto md:flex">  <div class="w-11/12 mx-auto md:w-2/4 ">    <div class>      <div class="flex items-center">        <i class="w-12 h-12 pt-4 pl-1 text-xl text-center text-white bg-gray-700 rounded-full fa fa-play"></i>        <h1 class="ml-4 text-center ">Hexo - A Static Site Generator </h1>      </div>      <div class="flex mt-4">        <p><i class="ml-2 fa fa-clock-o" aria-hidden="true"> 2 hr</i></p>        <p class="ml-2">- Hexo</p>      </div>    </div>     <p class="mt-4 ml-2 font-light tracking-wide">       Hexo is a framework by which you can generate static sites or blog.      It is a node.js based framework which works with html and markdown files.       It provides the deployment function on the github where you can store all       of your files & folders very easily    </p>    <p class="mt-4 ml-2 font-light tracking-wide">      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugit repudiandae ipsam perferendis iste hic. Nesciunt impedit, esse earum delectus quaerat voluptatibus sint cumque vel ipsam modi consectetur repellendus nisi?    </p>  </div>  <div class="flex justify-center mt-8 md:w-1/3 md:mt-0 ">     <div class="justify-center w-1/3">        <div class="w-40 h-40 -ml-1 text-white bg-blue-600 rounded-full ">           <p class="pt-16 text-4xl text-center">HEXO</p>        </div>        <p class="mt-8 text-sm text-center text-white">Hexo Static Site Generator Training Videos</p>        <a class="-ml-10" href="#">          <button class="w-64 px-8 py-4 mt-12 text-white bg-gray-700 rounded-lg text-md">Start Watching </button>        </a>      </div>  </div></div>]]></content>
     
