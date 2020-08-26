@@ -5,7 +5,7 @@ top: 1
 date: 2020-08-20 17:40:22
 ---
 
-<div class="justify-center mx-auto my-8 wrapper">
+<div class="justify-center max-w-screen-md mx-auto my-8 wrapper">
     <h3 class="-ml-10 font-medium text-center text-gray-500 text-md" > CORE TEAM</h3>
     <div class="flex justify-around mt-20">
         <div class="w-1/3 text-white" > 

@@ -1,4 +1,4 @@
-<div class="wrapper">
+<div class="wrapper ">
     <div class="h-12 head-container">
         <%- partial('_partial/header') %>  
         
@@ -7,18 +7,20 @@
         
 
     
-    <div class="items-center justify-center px-4 card-container">
-        <%- partial('_partial/card-header') %>
-        <div class="justify-center post-container">
+    <div class="items-center justify-center px-4 mx-auto bg-white ">
+        <div class="mx-auto card-container">
+            <%- partial('_partial/card-header') %>
+            <div class="justify-center post-container">
             <%
             var posts = [];
             page.posts.each(function(item){ %>
              <%- partial('_partial/article-excerpt', {item: item}) %>
             <% }); %>
+            </div>
         </div>
     </div> 
      
-    <div class="justify-center footer-container">
+    <div class="justify-center footer-container" style="background-color: #141618;">
         <%- partial('_partial/footer') %> 
         <%- partial('_partial/after-footer') %> 
     </div>

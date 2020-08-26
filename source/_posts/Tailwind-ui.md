@@ -1,5 +1,5 @@
 ---
-title: Tailwind-ui
+title: Tailwind ui
 category:
   - null
 tags:

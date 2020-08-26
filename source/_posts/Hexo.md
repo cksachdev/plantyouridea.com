@@ -1,5 +1,5 @@
 ---
-title: Hexo-Framework
+title: Hexo Framework
 category:
   - null
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Adapt-Framework
+title: Adapt Framework
 category:
   - null
 tags:

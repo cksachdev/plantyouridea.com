@@ -1,11 +1,13 @@
 .main-head{
     display: flex;
     flex-direction: column;
+    
 }
 .main-head-container{
     display: flex;
     justify-content: space-between;
     margin: 0 40px 0 40px;
+    
 }
 .main-head-s1{
     color: #141618;

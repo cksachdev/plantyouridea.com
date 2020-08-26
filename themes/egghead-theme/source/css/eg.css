@@ -61,7 +61,7 @@ body{
   }
 }
 
-@media (min-width:2560px){
+/* @media (min-width:2560px){
   .head-container{
     padding: 0 450px;
   }
@@ -81,4 +81,4 @@ body{
   .instructor{
     margin-top: 40px;
   }
-}
+} */

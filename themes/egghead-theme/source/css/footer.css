@@ -4,8 +4,12 @@
 .footer-container{
     background-color:#141618;
 }
+.footer-main{
+  max-width: 1400px;
+}
 .after-footer{
     color: rgb(127, 129, 130);
+    max-width: 1400px;
 }
 
 @media screen and (max-width: 600px) {
