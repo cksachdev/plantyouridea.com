@@ -1,9 +1,11 @@
-<%- partial('_partial/header') %>
+<div class="fixed top-0">
+    <%- partial('_partial/header') %>
+</div>
 
-<div class="h-full text-white bg-gray-800 content-post">
+<div class="h-full mx-auto mt-10 text-white bg-gray-800 content-post">
     
     
-    <div class="h-full px-8 py-8 bg-gray-900 bg-opacity-25 border-b border-teal-400 shadow-md content-header">
+    <div class="h-full px-8 py-2 bg-gray-900 bg-opacity-25 border-b shadow-md content-header">
         <!-- Title -->
         <h2 class="ml-20 font-sans text-4xl font-bold content-post-title ">
             <a  href="<%- config.root %><%- item.path %>">

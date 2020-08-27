@@ -92,3 +92,6 @@
 .content-post-title a{
     text-shadow: grey;
 }
+.content-post{
+  max-width: 1400px;
+}
