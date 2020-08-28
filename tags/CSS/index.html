@@ -18,7 +18,7 @@
 <meta name="generator" content="Hexo 5.1.1"><link rel="alternate" href="atom.xml" title="plantyouridea.com" type="application/atom+xml">
 </head> 
 <body class="justify-center mx-auto">
-    <div class="justify-center">
+    <div class="justify-center bg-white">
        <div class="wrapper ">
     <div class="h-12 head-container">
         <div class="justify-center w-full bg-black ">
@@ -153,16 +153,16 @@
       </div>
     </div>
 
-    <div x-description="Mobile menu, show/hide based on mobile menu state." x-show="mobileMenuOpen = false" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden">
+    <div x-description="Mobile menu, show/hide based on mobile menu state." x-show="mobileMenuOpen" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden">
       <div class="rounded-lg shadow-lg">
         <div class="bg-white divide-y-2 rounded-lg shadow-xs divide-gray-50">
-          <div class="px-5 pt-5 pb-6 space-y-6">
+          <div class="px-4 pb-6 -mt-2 space-y-6 ">
             <div class="flex items-center justify-between">
               <div class="flex">
                 <img class="w-auto h-8" src="/img/favicon_plant.ico" alt="Workflow">
                 <p class="text-xl font-semibold text-black sm:py-1 md:text-2xl">plantyouridea.com</p>
               </div>
-              <div class="-mr-2">
+              <div class="-mr-4">
                 <button @click="mobileMenuOpen = false" type="button" class="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500">
                   <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
@@ -244,7 +244,7 @@
         
 
     
-    <div class="items-center justify-center px-4 mx-auto bg-white ">
+    <div class="items-center justify-center mx-auto bg-white ">
         <div class="mx-auto card-container">
             <div class="flex justify-start mb-16 ml-6 -mt-8 card-header">
     <div class=" main-head">
@@ -328,7 +328,7 @@
         <div class="p-8 border-b border-gray-900" style="background-color: #141618;">
     <div class="mx-auto text-center footer-main " style="background-color: #141618;">
     
-        <button class="nav-toggle" aria-label="open navigation">
+        <button class="footer-nav-toggle" aria-label="open navigation">
             <span class="hamburger"></span>
         </button>
         <a class="" href="#">
@@ -341,7 +341,7 @@
         
         <div class="justify-between md:flex">
             
-            <nav class="flex justify-start w-1/3 ml-4 justify- footer__nav">
+            <nav class="flex justify-start w-1/3 ml-4 footer__nav">
                 <ul class="mx-6 text-white nav__list nav__list--primary">
                     <h1 class="mb-2 font-semibold text-left sidebar-title">About</h1>
                     <li class="py-2 text-sm text-left text-gray-400 nav__item hover:text-gray-300">
@@ -365,7 +365,7 @@
     
 </div>
 <script>
-    const navToggle = document.querySelector('.nav-toggle');
+    const navToggle = document.querySelector('.footer-nav-toggle');
     const nav = document.querySelector('.footer__nav');
 
 
