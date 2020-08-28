@@ -7,7 +7,7 @@
     
     <div class="h-full px-8 bg-white border-b shadow-md content-header">
         <!-- Title -->
-        <h2 class="ml-20 font-sans text-4xl font-bold content-post-title">
+        <h2 class="font-sans text-4xl font-bold md:px-10 lg:px-16 xl:px-20 content-post-title">
             <a  href="<%- config.root %><%- item.path %>">
                 <%- item.title || item.link%>
             </a>
@@ -20,7 +20,7 @@
         <div class="flex font-medium text-black item-content "  >
 
             <div class="items-center justify-center w-full font-sans text-xl bg-white">
-                 <h3 class="justify-center w-2/4 pb-6 mt-16 font-sans text-xl font-bold text-center page-header"><%- item.item1 %></h3>
+                 <h3 class="justify-center w-2/4 pb-6 font-sans text-xl font-bold text-center page-header"><%- item.item1 %></h3>
                  <%- item.content %>
             </div>
 

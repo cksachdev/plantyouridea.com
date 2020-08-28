@@ -4,7 +4,7 @@ title: About Plantyouridea
 top: 1
 date: 2020-08-20 19:59:09
 ---
-<div class="justify-center w-3/4 max-w-screen-lg m-auto my-20 mt-8 text-white h-screen/2">
+<div class="justify-center w-3/4 max-w-screen-lg m-auto my-20 mt-8 text-black bg-white h-screen/2">
     <p class="text-xl"> 
         Plantyouridea is a platform where we provides different development services and products.You can also get different trainings here to learn different web framework.
     </p>
