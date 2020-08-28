@@ -1,24 +1,25 @@
-<div class="fixed top-0">
+<div class="">
     <%- partial('_partial/header') %>
 </div>
 
-<div class="h-full mx-auto mt-10 text-white bg-gray-800 content-post">
+<div class="h-full mx-auto text-black content-post">
     
     
-    <div class="h-full px-8 py-2 bg-gray-900 bg-opacity-25 border-b shadow-md content-header">
+    <div class="h-full px-8 bg-white border-b shadow-md content-header">
         <!-- Title -->
-        <h2 class="ml-20 font-sans text-4xl font-bold content-post-title ">
+        <h2 class="ml-20 font-sans text-4xl font-bold content-post-title">
             <a  href="<%- config.root %><%- item.path %>">
                 <%- item.title || item.link%>
             </a>
         </h2>
     </div>
     
+    
     <!-- Content -->
-    <div class="flex justify-around pb-8 text-white">
-        <div class="flex font-medium text-white item-content "  >
+    <div class="flex justify-around pb-8 text-black bg-white">
+        <div class="flex font-medium text-black item-content "  >
 
-            <div class="items-center justify-center w-full font-sans text-xl">
+            <div class="items-center justify-center w-full font-sans text-xl bg-white">
                  <h3 class="justify-center w-2/4 pb-6 mt-16 font-sans text-xl font-bold text-center page-header"><%- item.item1 %></h3>
                  <%- item.content %>
             </div>

@@ -2,13 +2,14 @@
    
     <!-- Title -->
  
-     <div id="post" class="post-stub " onclick="location.href='<%- config.root %><%- item.path %>';">
+     <div id="post" class="justify-center post-stub " onclick="location.href='<%- config.root %><%- item.path %>';">
        <p class="p-4">
            <% if(item.top === 'CSS') { %> 
               <div class="flex justify-center w-full p-4">
                 <img class="border-2 border-teal-600 rounded-full" src="/img/tailwind.png" alt="" width="180" height="120">
               </div> 
             <% } %> 
+            
 
             <% if(item.top === 'hexo') { %> 
             <div class="flex justify-center p-4">
@@ -24,7 +25,7 @@
 
            
        </p>
-       <p class="mx-16 mt-3 mb-6 text-sm font-light text-gray-700">
+           <p class="mx-16 mt-3 mb-6 text-sm font-light text-gray-700"> 
          <%- item.text %>
        </p>
        <h2 class="post-title ">
@@ -35,12 +36,14 @@
         </h2>
          
           <!-- tag -->
-        <div class="flex justify-center w-auto ">
-          <div class="flex justify-center mb-8 tags">                 
-            <a href="" class="button-js">
-              <%- item.author %>
-          </div>
-        </div>  
+        <div class="flex justify-center w-full">
+          <div class="flex justify-center w-1/2 ">
+            <div class="flex justify-center w-auto mb-4 tags">                 
+              <a href="" class="w-auto button-js">
+                <%- item.author %>
+            </div>
+          </div> 
+        </div> 
         
         <div class="flex items-center justify-between mx-6 instructor">
            <div class="justify-center py-4">
