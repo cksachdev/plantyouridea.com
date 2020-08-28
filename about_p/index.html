@@ -19,8 +19,8 @@
 </head> 
 <body class="justify-center mx-auto">
     <div class="justify-center">
-       <div class="fixed top-0">
-    <div class="fixed justify-center w-full bg-black">
+       <div class="">
+    <div class="justify-center w-full bg-black ">
   <div class="mx-auto text-white bg-black main-header">
     
     <!-- This example requires Tailwind CSS v1.4.0+ -->
@@ -152,7 +152,7 @@
       </div>
     </div>
 
-    <div x-description="Mobile menu, show/hide based on mobile menu state." x-show="mobileMenuOpen" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden">
+    <div x-description="Mobile menu, show/hide based on mobile menu state." x-show="mobileMenuOpen = false" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden">
       <div class="rounded-lg shadow-lg">
         <div class="bg-white divide-y-2 rounded-lg shadow-xs divide-gray-50">
           <div class="px-5 pt-5 pb-6 space-y-6">
@@ -216,16 +216,16 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.6.0/alpine.js"></script>
 </div >
-<div class="px-8 py-2 mt-10 bg-gray-900 bg-opacity-25 border-b shadow-md content-header">
+<div class="px-8 mx-auto bg-gray-900 bg-opacity-25 border-b shadow-md content-header">
     <!-- Title -->
     <h2 class="font-sans text-4xl font-bold text-white content-post-title">
-        <a  class="flex justify-center" href="/about_p/index.html">
+        <a  class="flex ml-32" href="/about_p/index.html">
             About Plantyouridea
         </a>
     </h2>
 </div>
-<div class="main-content">
-    <div class="justify-center w-2/3 max-w-screen-lg m-auto my-20 mt-8 text-white h-screen/2">
+<div class=" main-content">
+    <div class="justify-center w-3/4 max-w-screen-lg m-auto my-20 mt-8 text-white h-screen/2">
     <p class="text-xl"> 
         Plantyouridea is a platform where we provides different development services and products.You can also get different trainings here to learn different web framework.
     </p>

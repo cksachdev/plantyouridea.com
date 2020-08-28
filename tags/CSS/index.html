@@ -21,7 +21,7 @@
     <div class="justify-center">
        <div class="wrapper ">
     <div class="h-12 head-container">
-        <div class="fixed justify-center w-full bg-black">
+        <div class="justify-center w-full bg-black ">
   <div class="mx-auto text-white bg-black main-header">
     
     <!-- This example requires Tailwind CSS v1.4.0+ -->
@@ -153,7 +153,7 @@
       </div>
     </div>
 
-    <div x-description="Mobile menu, show/hide based on mobile menu state." x-show="mobileMenuOpen" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden">
+    <div x-description="Mobile menu, show/hide based on mobile menu state." x-show="mobileMenuOpen = false" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden">
       <div class="rounded-lg shadow-lg">
         <div class="bg-white divide-y-2 rounded-lg shadow-xs divide-gray-50">
           <div class="px-5 pt-5 pb-6 space-y-6">
@@ -260,13 +260,14 @@
    
     <!-- Title -->
  
-     <div id="post" class="post-stub " onclick="location.href='/2020/08/01/Tailwind-ui/';">
+     <div id="post" class="justify-center post-stub " onclick="location.href='/2020/08/01/Tailwind-ui/';">
        <p class="p-4">
             
               <div class="flex justify-center w-full p-4">
                 <img class="border-2 border-teal-600 rounded-full" src="/img/tailwind.png" alt="" width="180" height="120">
               </div> 
              
+            
 
              
 
@@ -274,7 +275,7 @@
 
            
        </p>
-       <p class="mx-16 mt-3 mb-6 text-sm font-light text-gray-700">
+           <p class="mx-16 mt-3 mb-6 text-sm font-light text-gray-700"> 
          Utility first CSS framework for rapidly building custom designs
        </p>
        <h2 class="post-title ">
@@ -285,12 +286,14 @@
         </h2>
          
           <!-- tag -->
-        <div class="flex justify-center w-auto ">
-          <div class="flex justify-center mb-8 tags">                 
-            <a href="" class="button-js">
-              CSS
-          </div>
-        </div>  
+        <div class="flex justify-center w-full">
+          <div class="flex justify-center w-1/2 ">
+            <div class="flex justify-center w-auto mb-4 tags">                 
+              <a href="" class="w-auto button-js">
+                CSS
+            </div>
+          </div> 
+        </div> 
         
         <div class="flex items-center justify-between mx-6 instructor">
            <div class="justify-center py-4">

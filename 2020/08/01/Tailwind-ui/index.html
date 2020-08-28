@@ -19,8 +19,8 @@
 </head> 
 <body class="justify-center mx-auto">
     <div class="justify-center">
-       <div class="fixed top-0">
-    <div class="fixed justify-center w-full bg-black">
+       <div class="">
+    <div class="justify-center w-full bg-black ">
   <div class="mx-auto text-white bg-black main-header">
     
     <!-- This example requires Tailwind CSS v1.4.0+ -->
@@ -152,7 +152,7 @@
       </div>
     </div>
 
-    <div x-description="Mobile menu, show/hide based on mobile menu state." x-show="mobileMenuOpen" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden">
+    <div x-description="Mobile menu, show/hide based on mobile menu state." x-show="mobileMenuOpen = false" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden">
       <div class="rounded-lg shadow-lg">
         <div class="bg-white divide-y-2 rounded-lg shadow-xs divide-gray-50">
           <div class="px-5 pt-5 pb-6 space-y-6">
@@ -217,23 +217,24 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.6.0/alpine.js"></script>
 </div>
 
-<div class="h-full mx-auto mt-10 text-white bg-gray-800 content-post">
+<div class="h-full mx-auto text-black content-post">
     
     
-    <div class="h-full px-8 py-2 bg-gray-900 bg-opacity-25 border-b shadow-md content-header">
+    <div class="h-full px-8 bg-white border-b shadow-md content-header">
         <!-- Title -->
-        <h2 class="ml-20 font-sans text-4xl font-bold content-post-title ">
+        <h2 class="ml-20 font-sans text-4xl font-bold content-post-title">
             <a  href="/2020/08/01/Tailwind-ui/">
                 Tailwind ui
             </a>
         </h2>
     </div>
     
+    
     <!-- Content -->
-    <div class="flex justify-around pb-8 text-white">
-        <div class="flex font-medium text-white item-content "  >
+    <div class="flex justify-around pb-8 text-black bg-white">
+        <div class="flex font-medium text-black item-content "  >
 
-            <div class="items-center justify-center w-full font-sans text-xl">
+            <div class="items-center justify-center w-full font-sans text-xl bg-white">
                  <h3 class="justify-center w-2/4 pb-6 mt-16 font-sans text-xl font-bold text-center page-header"></h3>
                  
             </div>
