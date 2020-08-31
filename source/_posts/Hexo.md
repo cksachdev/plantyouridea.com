@@ -9,16 +9,18 @@ text: Static Site Generator A fast, simple & powerful blog framework
 author: Web Platform
 date: 2020-08-01 10:43:26
 ---
-<div class="flex flex-col-reverse justify-center mx-auto text-black md:flex-row">
-  <div class="w-11/12 mt-8 md:w-2/4 md:mt-0 ">
+<div class="flex flex-col-reverse px-6 mx-auto text-black md:px-8 md:flex-row">
+  <div class="w-full mt-8 md:w-2/3 md:mt-0 ">
     <div class="">
-      <div class="flex items-center">
-        <i class="w-12 h-12 pt-4 pl-1 text-xl text-center text-white bg-gray-900 rounded-full fa fa-play"></i>
+      <div class="flex items-center ">
+        <div class="flex items-center justify-center w-10 h-10 ml-2 text-center bg-blue-600 rounded-full ">
+          <i class="ml-1 text-white text-cenetr fa fa-play" aria-hidden="true"></i>
+        </div>
         <h1 class="ml-4 text-center text-black">Hexo - A Static Site Generator </h1>
       </div>
       <div class="flex mt-4">
         <p class="flex items-center">
-         <i class="mx-2 fa-lg fa fa-clock-o" aria-hidden="true"></i>
+         <i class="mx-2 fa fa-clock-o" aria-hidden="true"></i>
          <p class="text-md">2 hr</p>
         </p>
         <p class="ml-2">- Hexo</p>
@@ -31,10 +33,10 @@ date: 2020-08-01 10:43:26
       of your files & folders very easily
     </p>
     <p class="mt-4 ml-2 font-light tracking-wide">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugit repudiandae ipsam perferendis iste hic. Nesciunt impedit, esse earum delectus quaerat voluptatibus sint cumque vel ipsam modi consectetur repellendus nisi?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugit repudiandae ipsam perferendis iste hic. Nesciunt impedit, esse earum delectus quaerat voluptatibus sint cumque vel ipsam modi consectetur repellendus nisi? repudiandae ipsam perferendis iste hic. Nesciunt impedit repudiandae ipsam perferendis iste hic. Nesciunt impedit repudiandae ipsam perferendis iste hic. Nesciunt impedit repudiandae ipsam perferendis. 
     </p>
   </div>
-  <div class="flex justify-center w-full mt-8 text-black md:w-1/3 md:mt-0 ">
+  <div class="flex justify-center w-full mt-4 text-black md:w-1/3 md:mt-0 ">
      <div class="justify-center w-full ">
         <div class="flex justify-center">
           <div class="flex justify-center w-56 h-56 text-white rounded-full ">
@@ -50,8 +52,8 @@ date: 2020-08-01 10:43:26
       </div>
   </div>
 </div>
-<div class="flex flex-col block w-10/12 px-2 mx-auto sm:flex-row">
-  <div class="mt-8 md:w-1/3 block__learn md:mt-0">
+<div class="flex flex-col block w-full px-8 mx-auto md:px-10 sm:flex-row">
+  <div class="mt-8 md:mt-0 md:w-1/3 block__learn ">
      <h1 class="mb-3 text-xl font-semibold text-black block__learn__header">What you'll learn</h1>
      <div class="block__learn__item ">
        <p class="py-2 text-lg font-normal text-gray-900 block__learn__item__text"><span class="text-gray-700">▶︎</span> How to Use Hexo framework</p>
@@ -61,7 +63,7 @@ date: 2020-08-01 10:43:26
        <p class="py-2 text-lg font-normal text-gray-900 block__learn__item__text"><span class="text-gray-700">▶︎</span> How to Edit your code</p>
      </div>
   </div>
-  <div class="mt-8 sm:px-4 md:mt-0 block__prerequisite">
+  <div class="mt-8 md:mt-0 sm:px-6 md:px-8 block__prerequisite">
      <h1 class="mb-3 text-xl font-semibold text-black block__prerequisite__header">Prerequisites</h1>
      <div class="block__prerequisite__item ">
        <p class="py-2 text-lg font-normal text-gray-900 block__prerequisite__item__text"><span class="text-gray-700">▶︎</span> Knowledge HTML</p>
@@ -73,7 +75,7 @@ date: 2020-08-01 10:43:26
   </div>
 </div>
 
-<div class="flex justify-start w-11/12 px-2 mx-auto mt-12 md:w-10/12">
+<div class="flex justify-start w-11/12 px-2 mx-auto mt-12 lg:w-full lg:px-10 ">
   <div class="w-full">
    <div class="flex items-center px-8 border shadow-md">
      <div class="flex py-6 bg-white md:w-2/3 ">

@@ -61,24 +61,3 @@ body{
   }
 }
 
-/* @media (min-width:2560px){
-  .head-container{
-    padding: 0 450px;
-  }
-  .card-header{
-    padding: 0 430px;
-  }
-  .intro-section{
-    padding: 20px 470px;
-  }
-  .footer-container{
-    padding: 0 440px;
-  }
-  .post-stub{
-    height: 600px;
-    width: 484px;
-  }
-  .instructor{
-    margin-top: 40px;
-  }
-} */
