@@ -11,7 +11,9 @@
     color: rgb(127, 129, 130);
     max-width: 1400px;
 }
-
+.nav__link:hover{
+  color: rgb(205, 203, 203);
+}
 @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
