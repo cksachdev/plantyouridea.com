@@ -43,17 +43,18 @@
       width: 3em;
       height: 3em;
       padding: 0em;
+      margin:0 0 0 160px;
       border-radius: 50%;
       background: #212121;
       color: white;
       transition: opacity 250ms ease;
-      
       position: absolute;
-      right: 0;
+      
     }
     
-    .nav-toggle:focus,
-    .nav-toggle:hover {
+    .footer-nav-toggle:focus,
+    .footer-nav-toggle:hover {
+      outline-style: none;
       opacity: .75;
     }
     

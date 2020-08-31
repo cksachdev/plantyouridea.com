@@ -1,18 +1,20 @@
 <div class="p-8 border-b border-gray-900" style="background-color: #141618;">
     <div class="mx-auto text-center footer-main " style="background-color: #141618;">
     
-        <button class="footer-nav-toggle" aria-label="open navigation">
-            <span class="hamburger"></span>
-        </button>
-        <a class="" href="#">
-            <span class="flex px-2 pb-8">
+        <a class="relative " onclick="document.getElementById('footer-hamburger-menu')">
+            <button class=" footer-nav-toggle" aria-label="open navigation">
+                <span class="hamburger"></span>
+            </button>
+        </a>
+        <a class="inline w-1/3 " href="#">
+            <span class="flex inline w-64 px-2 pb-8">
                <img src="/img/favicon_plant.ico" alt="" width="30" height="20">
                 <p class="ml-1 text-xl font-extrabold text-white align-middle">
                      plantyouridea.com</p> 
             </span>
         </a>
         
-        <div class="justify-between md:flex">
+        <div class="justify-between md:flex " id="footer-hamburger-menu">
             
             <nav class="flex justify-start w-1/3 ml-4 footer__nav">
                 <ul class="mx-6 text-white nav__list nav__list--primary">

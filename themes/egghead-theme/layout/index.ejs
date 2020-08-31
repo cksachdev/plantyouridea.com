@@ -11,11 +11,11 @@
         <div class="mx-auto card-container">
             <%- partial('_partial/card-header') %>
             <div class="justify-center post-container">
-            <%
-            var posts = [];
-            page.posts.each(function(item){ %>
-             <%- partial('_partial/article-excerpt', {item: item}) %>
-            <% }); %>
+                <%
+                 var posts = [];
+                page.posts.each(function(item){ %>
+                <%- partial('_partial/article-excerpt', {item: item}) %>
+                <% }); %>
             </div>
         </div>
     </div> 
