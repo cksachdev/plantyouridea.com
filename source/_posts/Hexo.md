@@ -16,7 +16,7 @@ date: 2020-08-01 10:43:26
         <div class="flex items-center justify-center w-10 h-10 ml-1 text-center bg-blue-600 rounded-full ">
           <i class="ml-1 text-white text-cenetr fa fa-play" aria-hidden="true"></i>
         </div>
-        <h1 class="ml-4 text-4xl text-center text-black">Hexo - A Static Site Generator </h1>
+        <h1 class="ml-4 text-2xl text-center text-black lg:text-4xl">Hexo - A Static Site Generator </h1>
       </div>
       <div class="flex mt-8">
         <p class="flex items-center">
@@ -47,7 +47,7 @@ date: 2020-08-01 10:43:26
           <p class="w-2/3 mt-8 text-center text-black text-md">Hexo Static Site Generator Training Videos</p>
         </div>
         <a class="flex justify-center" href="#">
-          <button class="px-8 py-2 mt-12 font-medium text-white bg-blue-600 rounded-lg text-md">Start Watching </button>
+          <button class="px-8 py-2 mt-12 text-lg font-semibold tracking-wide text-white text-opacity-100 bg-blue-600 rounded-lg">Start Watching </button>
         </a>
       </div>
   </div>
