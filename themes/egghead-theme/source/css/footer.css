@@ -43,7 +43,7 @@
       width: 3em;
       height: 3em;
       padding: 0em;
-      margin:0 0 0 160px;
+      margin:0 0 0 10rem;
       border-radius: 50%;
       background: #212121;
       color: white;
@@ -102,3 +102,8 @@
       position: relative;
     } 
   }
+@media (max-width: 411px){
+  .footer-nav-toggle {
+    margin:0 0 0 7rem;
+  }
+}
