@@ -2,19 +2,7 @@
     <%- partial('_partial/header') %>
 </div>
 
-<div class="h-full mx-auto text-black content-post">
-    
-    
-    <div class="h-full px-8 bg-white border-b shadow-md content-header">
-        <!-- Title -->
-        <h2 class="font-sans text-4xl font-bold md:px-10 lg:px-16 xl:px-20 content-post-title">
-            <a  href="<%- config.root %><%- item.path %>">
-                <%- item.title || item.link%>
-            </a>
-        </h2>
-    </div>
-    
-    
+<div class="h-full pt-8 mx-auto text-black content-post">    
     <!-- Content -->
     <div class="flex justify-around pb-8 text-black bg-white">
         <div class="flex font-medium text-black item-content "  >
@@ -24,10 +12,8 @@
                  <%- item.content %>
             </div>
 
-
-           
-          <% if (item.item2) { %> 
-           <div class="flex flex-wrap justify-end max-w-xs mt-16 ml-20 font-semibold">
+            <% if (item.item2) { %> 
+            <div class="flex flex-wrap justify-end max-w-xs mt-16 ml-20 font-semibold">
               <% if(item.item1 || item.item2) { %> 
                  <p class="w-32 h-24 p-4 m-2 text-center text-white bg-gray-700"><%- item.item2 %></p>
                  <p class="w-32 h-24 p-4 m-2 text-center text-white bg-gray-700"><%- item.item3 %></p>
@@ -39,17 +25,7 @@
           <% } %> 
         </div>
     </div>
-    <!-- Tags and Categories links -->
-    <%#- partial('article-tags', {item: item}) %>
-    <%#- partial('article-categories', {item: item}) %>
-    <section class="comments" id="comments">
-        <div id="disqus_thread"></div>
-        <script>
-        var disqus_shortname = 'chetansachdev';
-        lazyScripts.push('//' + disqus_shortname + '.disqus.com/embed.js')
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </section>
+    
     <div class="justify-center footer-container">
         <%- partial('_partial/footer') %> 
         <%- partial('_partial/after-footer') %> 

@@ -5,7 +5,7 @@ top: 1
 date: 2019-05-08 12:51:14
 ---
 
-<div class="justify-center w-2/3 m-auto my-20 mt-8 text-white">
+<div class="justify-center w-3/4 max-w-screen-lg m-auto my-20 mt-8 text-black bg-white h-screen/2">
     <p class="text-xl"> 
         Plantyouridea is a platform where we provides different development services and products.You can also get different trainings here to learn different web framework.
     </p>

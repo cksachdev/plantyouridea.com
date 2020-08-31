@@ -10,7 +10,7 @@ author: Web Platform
 date: 2020-08-01 10:43:26
 ---
 <div class="flex flex-col-reverse justify-center mx-auto text-black md:flex-row">
-  <div class="w-11/12 mx-auto mt-8 md:w-2/4 md:mt-0 ">
+  <div class="w-11/12 mt-8 md:w-2/4 md:mt-0 ">
     <div class="">
       <div class="flex items-center">
         <i class="w-12 h-12 pt-4 pl-1 text-xl text-center text-white bg-gray-900 rounded-full fa fa-play"></i>
