@@ -13,27 +13,27 @@ date: 2020-08-01 10:43:26
   <div class="w-full mt-8 md:w-2/3 md:mt-0 ">
     <div class="">
       <div class="flex items-center ">
-        <div class="flex items-center justify-center w-10 h-10 ml-2 text-center bg-blue-600 rounded-full ">
+        <div class="flex items-center justify-center w-10 h-10 ml-1 text-center bg-blue-600 rounded-full ">
           <i class="ml-1 text-white text-cenetr fa fa-play" aria-hidden="true"></i>
         </div>
-        <h1 class="ml-4 text-center text-black">Hexo - A Static Site Generator </h1>
+        <h1 class="ml-4 text-4xl text-center text-black">Hexo - A Static Site Generator </h1>
       </div>
-      <div class="flex mt-4">
+      <div class="flex mt-8">
         <p class="flex items-center">
-         <i class="mx-2 fa fa-clock-o" aria-hidden="true"></i>
-         <p class="text-md">2 hr</p>
+         <i class="mx-2 font-normal text-gray-600 fa fa-clock-o" aria-hidden="true"></i>
+         <p class="text-lg font-normal text-gray-700 ">2 hr</p>
         </p>
-        <p class="ml-2">- Hexo</p>
+        <p class="ml-2 text-lg font-normal text-gray-700">- Hexo</p>
       </div>
     </div> 
-    <p class="mt-4 ml-2 font-light tracking-wide"> 
+    <p class="mt-8 ml-2 font-light tracking-wide"> 
       Hexo is a framework by which you can generate static sites or blog.
       It is a node.js based framework which works with html and markdown files. 
       It provides the deployment function on the github where you can store all 
       of your files & folders very easily
     </p>
     <p class="mt-4 ml-2 font-light tracking-wide">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugit repudiandae ipsam perferendis iste hic. Nesciunt impedit, esse earum delectus quaerat voluptatibus sint cumque vel ipsam modi consectetur repellendus nisi? repudiandae ipsam perferendis iste hic. Nesciunt impedit repudiandae ipsam perferendis iste hic. Nesciunt impedit repudiandae ipsam perferendis iste hic. Nesciunt impedit repudiandae ipsam perferendis. 
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugit repudiandae ipsam perferendis iste hic. Nesciunt impedit, esse earum delectus quaerat voluptatibus sint cumque vel ipsam modi consectetur repellendus nisi? repudiandae ipsam perferendis iste hic. Nesciunt impedit repudiandae ipsam perferendis iste hic. 
     </p>
   </div>
   <div class="flex justify-center w-full mt-4 text-black md:w-1/3 md:mt-0 ">
