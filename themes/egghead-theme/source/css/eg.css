@@ -1,8 +1,8 @@
-@import "header.css" ;
-@import "hero.css" ;
-@import "card-header.css" ;
-@import "course-card.css" ;
-@import "footer.css" ;
+@import url(header.css);
+@import url(hero.css) ;
+@import url(card-header.css) ;
+@import url(course-card.css) ;
+@import url(footer.css) ;
 
 body{
     -webkit-font-smoothing: antialiased;
