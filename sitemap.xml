@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://plantyouridea.com/contact/index.html</loc>
+    
+    <lastmod>2020-09-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://plantyouridea.com/team/index.html</loc>
+    
+    <lastmod>2020-09-03</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://plantyouridea.com/2020/08/01/Hexo/</loc>
     
-    <lastmod>2020-08-31</lastmod>
+    <lastmod>2020-09-03</lastmod>
     
   </url>
   
@@ -12,13 +26,6 @@
     <loc>http://plantyouridea.com/about/index.html</loc>
     
     <lastmod>2020-08-31</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://plantyouridea.com/team/index.html</loc>
-    
-    <lastmod>2020-08-28</lastmod>
     
   </url>
   
@@ -40,13 +47,6 @@
     <loc>http://plantyouridea.com/2020/08/01/adapt-framework/</loc>
     
     <lastmod>2020-08-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://plantyouridea.com/contact/index.html</loc>
-    
-    <lastmod>2020-08-24</lastmod>
     
   </url>
   
@@ -116,7 +116,7 @@
 
   <url>
     <loc>http://plantyouridea.com/</loc>
-    <lastmod>2020-08-31</lastmod>
+    <lastmod>2020-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -124,21 +124,21 @@
   
   <url>
     <loc>http://plantyouridea.com/tags/Web-Platform/</loc>
-    <lastmod>2020-08-31</lastmod>
+    <lastmod>2020-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://plantyouridea.com/tags/CSS/</loc>
-    <lastmod>2020-08-31</lastmod>
+    <lastmod>2020-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://plantyouridea.com/tags/Web-Platform/</loc>
-    <lastmod>2020-08-31</lastmod>
+    <lastmod>2020-09-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

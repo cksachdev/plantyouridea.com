@@ -20,8 +20,8 @@
 <body class="justify-center mx-auto">
     <div class="justify-center bg-white">
        <div class="">
-    <div class="justify-center w-full px-2 bg-black ">
-  <div class="mx-auto text-white bg-black main-header">
+    <div class="justify-center w-full bg-black ">
+  <div class="w-full mx-auto text-white bg-black  main-header">
     
     <!-- This example requires Tailwind CSS v1.4.0+ -->
    <div x-data="{ mobileMenuOpen: false }" class="relative bg-black">
@@ -117,7 +117,7 @@
       </div>
     </div>
 
-    <div x-description="Mobile menu, show/hide based on mobile menu state." x-show="mobileMenuOpen" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden">
+    <div x-description="Mobile menu, show/hide based on mobile menu state." x-show="mobileMenuOpen" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute inset-x-0 p-2 -mt-10 transition origin-top-right transform md:hidden">
       <div class="rounded-lg shadow-lg">
         <div class="bg-white divide-y-2 rounded-lg shadow-xs divide-gray-50">
           <div class="px-4 pb-6 -mt-2 space-y-6 ">
@@ -136,34 +136,59 @@
             </div>
             <div>
               <nav class="grid row-gap-8">
-                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+                <a href="../../../../about/" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out hover:bg-gray-50">
                   
                   <div class="text-base font-medium leading-6 text-gray-900">
                     About plantyouridea
                   </div>
                 </a>
-                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out hover:bg-gray-50">
                   
                   <div class="text-base font-medium leading-6 text-gray-900">
                     Who we are
                   </div>
                 </a>
-                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+                <a href="../../../../team/" class="flex items-center px-3 pt-3 pb-6 -m-3 space-x-3 transition duration-150 ease-in-out border-b hover:bg-gray-50">
                   
                   <div class="text-base font-medium leading-6 text-gray-900">
                     Meet the team
                   </div>
                 </a>
-                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+                
+                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out hover:bg-gray-50">
+                  
+                  <div class="text-base font-medium leading-6 text-gray-900">
+                    Hexo Framework
+                  </div>
+                </a>
+                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out hover:bg-gray-50">
+                  
+                  <div class="text-base font-medium leading-6 text-gray-900">
+                    Tailwind ui
+                  </div>
+                </a>
+                <a href="#" class="flex items-center px-3 pt-3 pb-6 -m-3 space-x-3 transition duration-150 ease-in-out border-b hover:bg-gray-50">
+                  
+                  <div class="text-base font-medium leading-6 text-gray-900">
+                    Adapt Framework
+                  </div>
+                </a>
+                <a href="../../../../contact/" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out hover:bg-gray-50">
                   
                   <div class="text-base font-medium leading-6 text-gray-900">
                     Contact
                   </div>
                 </a>
-                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+                <a target="_blank" rel="noopener" href="https://github.com/cksachdev" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out hover:bg-gray-50">
                   
                   <div class="text-base font-medium leading-6 text-gray-900">
-                    
+                    <i class="fa fa-github " aria-hidden=""></i>
+                  </div>
+                </a>
+                <a target="_blank" rel="noopener" href="https://twitter.com/cksachdev" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out hover:bg-gray-50">
+                  
+                  <div class="text-base font-medium leading-6 text-gray-900">
+                    <i class="fa fa-twitter " aria-hidden=""></i>
                   </div>
                 </a>
               </nav>

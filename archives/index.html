@@ -21,8 +21,8 @@
     <div class="justify-center bg-white">
        <div class="wrapper ">
     <div class="h-12 head-container">
-        <div class="justify-center w-full px-2 bg-black ">
-  <div class="mx-auto text-white bg-black main-header">
+        <div class="justify-center w-full bg-black ">
+  <div class="w-full mx-auto text-white bg-black  main-header">
     
     <!-- This example requires Tailwind CSS v1.4.0+ -->
    <div x-data="{ mobileMenuOpen: false }" class="relative bg-black">
@@ -118,7 +118,7 @@
       </div>
     </div>
 
-    <div x-description="Mobile menu, show/hide based on mobile menu state." x-show="mobileMenuOpen" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden">
+    <div x-description="Mobile menu, show/hide based on mobile menu state." x-show="mobileMenuOpen" x-transition:enter="duration-200 ease-out" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95" class="absolute inset-x-0 p-2 -mt-10 transition origin-top-right transform md:hidden">
       <div class="rounded-lg shadow-lg">
         <div class="bg-white divide-y-2 rounded-lg shadow-xs divide-gray-50">
           <div class="px-4 pb-6 -mt-2 space-y-6 ">
@@ -137,34 +137,59 @@
             </div>
             <div>
               <nav class="grid row-gap-8">
-                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+                <a href="../about/" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out hover:bg-gray-50">
                   
                   <div class="text-base font-medium leading-6 text-gray-900">
                     About plantyouridea
                   </div>
                 </a>
-                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out hover:bg-gray-50">
                   
                   <div class="text-base font-medium leading-6 text-gray-900">
                     Who we are
                   </div>
                 </a>
-                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+                <a href="../team/" class="flex items-center px-3 pt-3 pb-6 -m-3 space-x-3 transition duration-150 ease-in-out border-b hover:bg-gray-50">
                   
                   <div class="text-base font-medium leading-6 text-gray-900">
                     Meet the team
                   </div>
                 </a>
-                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+                
+                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out hover:bg-gray-50">
+                  
+                  <div class="text-base font-medium leading-6 text-gray-900">
+                    Hexo Framework
+                  </div>
+                </a>
+                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out hover:bg-gray-50">
+                  
+                  <div class="text-base font-medium leading-6 text-gray-900">
+                    Tailwind ui
+                  </div>
+                </a>
+                <a href="#" class="flex items-center px-3 pt-3 pb-6 -m-3 space-x-3 transition duration-150 ease-in-out border-b hover:bg-gray-50">
+                  
+                  <div class="text-base font-medium leading-6 text-gray-900">
+                    Adapt Framework
+                  </div>
+                </a>
+                <a href="../contact/" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out hover:bg-gray-50">
                   
                   <div class="text-base font-medium leading-6 text-gray-900">
                     Contact
                   </div>
                 </a>
-                <a href="#" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-gray-50">
+                <a target="_blank" rel="noopener" href="https://github.com/cksachdev" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out hover:bg-gray-50">
                   
                   <div class="text-base font-medium leading-6 text-gray-900">
-                    
+                    <i class="fa fa-github " aria-hidden=""></i>
+                  </div>
+                </a>
+                <a target="_blank" rel="noopener" href="https://twitter.com/cksachdev" class="flex items-center p-3 -m-3 space-x-3 transition duration-150 ease-in-out hover:bg-gray-50">
+                  
+                  <div class="text-base font-medium leading-6 text-gray-900">
+                    <i class="fa fa-twitter " aria-hidden=""></i>
                   </div>
                 </a>
               </nav>
@@ -183,21 +208,21 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.6.0/alpine.js"></script>  
         
     </div>
-    <div class="hero ">
-    <div class="justify-around intro-section " id="intro">
-        <div class="flex justify-center py-8 md:pt-0 md:float-right">
+    <div class="w-full hero ">
+    <div class="justify-center w-full intro-section " id="intro">
+        <div class="flex justify-center w-full py-8 md:w-1/3 lg:w-1/3 xl:w-1/3 md:pt-0 md:float-right">
             <a href="">
                 <img class="w-full h-full cks-img md:w-full md:h-full shadow-4xl " src="/img/hexo.png" alt="" >
             </a>
         </div>
-        <div class="justify-center max-w-xl mx-8 text-center intro-text-container md:text-left md:mx-0">
-            <div class="flex flex-col justify-center">
-                <h1 class="flex flex-wrap justify-center font-sans text-5xl font-semibold intro-h1">Learn to use Hexo Framework to generate your new Website </h1>
-                <h2 class="mt-2 text-xl font-normal intro-h2">Videos link for better understanding</h2>
+        <div class="justify-center max-w-xl mx-8 text-center md:max-w-md lg:max-w-xl xl:max-w-3xl md:-ml-4 intro-text-container md:text-left md:justify-start md:mx-0">
+            <div class="flex flex-col justify-center w-full">
+                <h1 class="flex justify-center font-sans text-5xl font-semibold tex intro-h1">Learn to use Hexo Framework to generate your new Website </h1>
+                <h2 class="mt-2 text-xl font-normal intro-h2 xl:ml-2">Videos link for better understanding. Create your own website easily with this framework. Deploy It in one click, manage and update all your files & folders easily.You will get to know everything about hexo framework.</h2>
             </div> 
-            <div class="flex items-center justify-center md:flex md:justify-start ">
-                <a class="my-16 text-center rounded-lg start-btn" href="">
-                    <span class="shadow-2xl click-start">CLICK TO START</span>
+            <div class="flex items-end justify-center ml-2 md:flex md:justify-start ">
+                <a class="self-end my-16 text-center rounded-lg start-btn" href="">
+                    <span class="self-center shadow-2xl click-start">CLICK TO START</span>
                 </a>
             </div>
         </div>
