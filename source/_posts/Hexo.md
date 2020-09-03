@@ -8,6 +8,7 @@ top: hexo
 text: Static Site Generator A fast, simple & powerful blog framework
 author: Web Platform
 date: 2020-08-01 10:43:26
+link: hexo/
 ---
 <div class="flex flex-col-reverse px-6 mx-auto text-black md:px-8 md:flex-row">
   <div class="w-full mt-8 md:w-2/3 md:mt-0 ">
